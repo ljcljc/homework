@@ -32,8 +32,7 @@ The application generates an HTML file (`output.html`) in the project's root dir
 ## Logging
 Operational logs of the application are recorded in `logs/main.log`, including progress updates and error tracking for each news category's processing.
 
-## Modifications and Notes
-Filename Change: html.py to htmls.py. 
+## Filename Change: html.py to htmls.py. 
 Due to a keyword conflict with the nltk library, the file originally named html.py has been renamed to htmls.py. This change is made to avoid conflicts with any internal keywords or modules used by nltk. The application should function as intended with this change.
 
 ## Author
